@@ -37,7 +37,7 @@ const EstudianteProvider = ({ children }) => {
         },
       };
       const { data } = await axios(
-        `http://localhost:4000/api/registro/${id}`,
+        `http://161.35.129.87:4000/api/registro/${id}`,
         config
       );
       setEstudiante(data);

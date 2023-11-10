@@ -17,7 +17,7 @@ const GeneradorQR = () => {
       });
       return;
     }
-    setUrl(`http://127.0.0.1:5173/#/home/${documento}`);
+    setUrl(`http://161.35.129.87/#/home/${documento}`);
     setAlerta({
       msg: "Código QR generado",
       error: false,
